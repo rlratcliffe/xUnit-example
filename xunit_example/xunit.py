@@ -1,5 +1,4 @@
 from xunit_example.TestCaseTest import TestCaseTest
 
 def main():
-    TestCaseTest("testRunning").run()
-    TestCaseTest("testSetUp").run()
+    TestCaseTest("testTemplateMethod").run()
