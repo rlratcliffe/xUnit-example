@@ -9,6 +9,8 @@ packages = [{include = "xunit_example"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 
+[tool.poetry.scripts]
+xunit = "xunit_example.xunit:main"
 
 [build-system]
 requires = ["poetry-core"]
