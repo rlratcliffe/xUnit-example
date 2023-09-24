@@ -37,4 +37,4 @@ jobs:
 
       - run: poetry install --no-interaction
 
-      - run: poetry run python test.py
+      - run: poetry run xunit
