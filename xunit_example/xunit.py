@@ -1,7 +1,4 @@
-from xunit_example.WasRun import WasRun
+from xunit_example.TestCaseTest import TestCaseTest
 
 def main():
-    test = WasRun("testMethod")
-    print(test.wasRun)
-    test.run()
-    print(test.wasRun)
+    TestCaseTest("testRunning").run()
