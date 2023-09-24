@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "xunit-example"
+version = "0.1.0"
+description = ""
+authors = ["Rob Ratcliffe <rlr@tcliffe.dev>"]
+readme = "README.md"
+packages = [{include = "xunit_example"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
