@@ -9,7 +9,8 @@ Part 2 of 'Test-Driven Devlopment by Example' by Kent Beck
 - Run multiple tests
 - ~~Report collected results~~
 - ~~Log string in WasRun~~
-- Report failed tests
+- ~~Report failed tests~~
+- Catch and report setUp errors
 
 # Quotes
 
