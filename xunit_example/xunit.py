@@ -1,6 +1,7 @@
 from xunit_example.TestCaseTest import TestCaseTest
 
 def main():
-    TestCaseTest("testTemplateMethod").run()
-    TestCaseTest("testResult").run()
-    TestCaseTest("testFailedResultFormatting").run()
+    print(TestCaseTest("testTemplateMethod").run().summary())
+    print(TestCaseTest("testResult").run().summary())
+    print(TestCaseTest("testFailedResultFormatting").run().summary())
+    print(TestCaseTest("testFailedResult").run().summary())
