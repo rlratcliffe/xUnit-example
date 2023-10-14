@@ -15,6 +15,12 @@ Part 2 of 'Test-Driven Devlopment by Example' by Kent Beck
 
 # Quotes
 
+"Driving a testing tool using the testing tool itself to run the tests may seem a bit like performing brain surgery on yourself. ('Don't touch those motor centers - oh, too bad, game over') It will get weird from time to time."
+
+"1. Arrange - Create some objects. 2. Act - Simulate them. 3. Assert - Check the results."
+
+"Test coupling has an obvious nasty effect, in that breaking one test causes the next ten to fail even though the code is correct... Test coupling - don't go there."
+
 "If we make a mistake implementing this, then we won't be able to see the mistake because the exceptions won't be reported."
 
 "When I pick the next test to implement, I find a test that will teach me something and which I have confidence I can make work. If I get that test working but get stuck on the next one, then I consider backing up two steps."
